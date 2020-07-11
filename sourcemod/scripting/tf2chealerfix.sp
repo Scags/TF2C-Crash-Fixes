@@ -70,5 +70,5 @@ public MRESReturn CTFPlayerShared_StopHealingPost(Handle hParams)
 public void Patch(int[] patch)
 {
 	for (int i = 0; i < g_Length; ++i)
-		StoreToAddress(g_Addr, patch[i], NumberType_Int8);
+		StoreToAddress(g_Addr + ptr(i), patch[i], NumberType_Int8);
 }
