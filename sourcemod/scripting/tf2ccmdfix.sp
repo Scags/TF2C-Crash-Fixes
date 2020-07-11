@@ -1,6 +1,13 @@
 #include <sdktools>
 #include <dhooks>
 
+public Plugin myinfo =  {
+	name = "TF2C Command Fix", 
+	author = "Scag", 
+	description = "Fixes a crash where a players could crash a server via command", 
+	version = "1.0.0", 
+	url = ""
+};
 
 public void OnPluginStart()
 {
