@@ -12,3 +12,5 @@ Fixes a crash where players could intentionally crash a server with a malformed 
 ### tf2chealerfix.smx ###
 Fixes a crash where a null healer stops healing a player.
 
+### tf2clagcompfix.smx ###
+Fixes a crash where players manage to lag compensate with a null usercommand. 
