@@ -3,8 +3,10 @@
 
 Requires [DHooks with Detours](https://forums.alliedmods.net/showpost.php?p=2588686&postcount=589)
  
-### tf2ccmdfix.smx ###
+### ~tf2ccmdfix.smx~ ###
 Fixes a crash where players could intentionally crash a server with a malformed command.
+
+No longer needed, source exists for archival purposes.
 
 ### tf2chealerfix.smx ###
 Fixes a crash where a null healer stops healing a player.
